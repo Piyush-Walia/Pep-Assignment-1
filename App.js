@@ -16,7 +16,7 @@ function App() {
             <label>Enter Your Name -</label>
             &nbsp;&nbsp;
             <input
-            placeholder ="eg. Rahul Kumar"
+            placeholder ="Your name"
             value ={name}
             onChange={(event)=>{setName(event.target.value)}}></input>
             &nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,7 +26,7 @@ function App() {
             {(submit && name) && <Welcome name={name}></Welcome>}
 
             <div>
-              <p>Assignment done by Akash Tripathi (12101602)</p>
+              <p>Assignment done by Piyush Walia 12018859</p>
             </div>
         </div>
       </div>
